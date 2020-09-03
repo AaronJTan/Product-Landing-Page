@@ -2,12 +2,18 @@ html, body {
   margin: 0;
 }
 
-#main {
-  display: flex;
+#gray-section {
+  background-color: #ececec;
+}
+
+.container-padded {
   padding: 7% 15%;
+}
+
+.container {
+  display: flex;
   align-items: center;
   flex-wrap: wrap-reverse;
-  background-color: #ececec;
 }
 
 h1 {
@@ -45,4 +51,9 @@ button:active {
   color: black;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
+}
+
+p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.2em;
 }
