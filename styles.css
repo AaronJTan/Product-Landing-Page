@@ -92,9 +92,22 @@ span {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  padding: 5% 5%;
 }
 
 .book-div img {
   height: 325px;
   width: 325px;
+}
+
+.blue-section {
+  background-color: #51AAD4;
+}
+#footer {
+  text-align: center;
+  color: white;
+}
+
+.social-icon {
+  margin: 20px 10px;
 }
