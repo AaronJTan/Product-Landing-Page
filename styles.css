@@ -16,24 +16,24 @@ html, body {
   flex-wrap: wrap-reverse;
 }
 
-h1 {
+#title h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
   margin-bottom: 0;
 }
 
-h2 {
+#title h2 {
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-h3 {
+#title h3 {
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
 }
 
-button {
+#title button {
   background-color: white;
   font-size: 1.5em;
   border: 2px solid black;
@@ -42,11 +42,11 @@ button {
   font-weight: bold;
 }
 
-button:hover {
+#title button:hover {
   background-color: #FBC02E
 }
 
-button:active {
+#title button:active {
   background-color: #FBC02E;
   color: black;
   box-shadow: 0 5px #666;
@@ -56,4 +56,45 @@ button:active {
 p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
+}
+
+#black-section {
+  background-color: #212121;
+}
+
+blockquote {
+  color: white;
+}
+
+blockquote p {
+  font-family: 'Cairo', sans-serif;
+  font-size: 1.4em;
+  line-height: 1.2;
+}
+
+footer {
+  font-family: 'Barlow', sans-serif;
+  text-align: right;
+}
+
+span {
+  font-weight: bold;
+}
+
+.container-padded2 {
+  padding: 2.5% 15%;
+}
+
+#white-section {
+  background-color: white;
+}
+.book-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.book-div img {
+  height: 295px;
+  width: 295px;
 }
