@@ -10,7 +10,7 @@ header {
   color: white;
 }
 
-@media (max-width: 812px) {
+@media (max-width: 736px) {
   header {
     flex-wrap: wrap;
   }
