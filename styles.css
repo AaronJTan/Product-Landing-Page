@@ -142,14 +142,15 @@ header {
   background-color: #142d4c;
 }
 
-.container-padded {
-  padding: 7% 15%;
-}
-
+/* Containers */
 .container {
   display: flex;
   align-items: center;
   flex-wrap: wrap-reverse;
+}
+
+.container-padded {
+  padding: 7% 15%;
 }
 
 .container-padded2 {
