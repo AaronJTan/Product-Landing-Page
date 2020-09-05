@@ -2,21 +2,7 @@ html, body {
   margin: 0;
 }
 
-ul, li {
-  display: inline;
-}
-
-li {
-  font-family: 'Noto Sans JP', sans-serif;
-  list-style: none;
-  padding: 0 20px;
-}
-
-a {
-  color: white;
-  text-decoration: none;
-}
-
+/* Navigation Bar */
 header {
   display: flex;
   justify-content: space-around;
@@ -24,43 +10,42 @@ header {
   color: white;
 }
 
-header h1 {
+#company-name {
   font-family: 'Oswald', sans-serif;
   padding: 0;
 }
 
-.gray-section {
-  background-color: #ececec;
+#nav-bar li {
+  display: inline;
+  font-family: 'Noto Sans JP', sans-serif;
+  list-style: none;
+  padding: 0 20px;
 }
 
-.container-padded {
-  padding: 7% 15%;
+.nav-link {
+  color: white;
+  text-decoration: none;
 }
 
-.container {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap-reverse;
-}
-
-#title h1 {
+/* Main Book Section */
+#book-title h1 {
   font-family: 'Roboto', sans-serif;
   font-size: 2.5em;
   margin-bottom: 0;
 }
 
-#title h2 {
+#book-title h2 {
   font-family: 'Montserrat', sans-serif;
   margin-top: 0;
   margin-bottom: 0;
 }
 
-#title h3 {
+#book-title h3 {
   font-family: 'Open Sans', sans-serif;
   margin-top: 10px;
 }
 
-#title button {
+#book-title button {
   background-color: white;
   font-size: 1.5em;
   border: 2px solid black;
@@ -69,60 +54,52 @@ header h1 {
   font-weight: bold;
 }
 
-#title button:hover {
+#book-title button:hover {
   background-color: #FBC02E
 }
 
-#title button:active {
+#book-title button:active {
   background-color: #FBC02E;
   color: black;
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
 
-p {
+/* Summary Section */
+#overview p {
   font-family: 'Raleway', sans-serif;
   font-size: 1.2em;
 }
 
-.black-section {
-  background-color: #212121;
-}
-
-blockquote {
+/* Review Section */
+#review {
   color: white;
 }
 
-blockquote p {
+#review p {
   font-family: 'Cairo', sans-serif;
   font-size: 1.4em;
   line-height: 1.2;
 }
 
-footer {
+#review footer {
   font-family: 'Barlow', sans-serif;
   text-align: right;
 }
 
-span {
+#review span {
   font-weight: bold;
 }
 
-.container-padded2 {
-  padding: 2.5% 15%;
-}
-
-.white-section {
-  background-color: white;
-}
-.white-section h2 {
+/* More Books Section */
+#more-books h2 {
   font-family: 'Quicksand', sans-serif;
   font-size: 2.3em;
   text-align: center;
   margin-bottom: 12px;
 }
 
-.white-section hr {
+#more-books hr {
   width: 50%;
 }
 
@@ -138,9 +115,7 @@ span {
   width: 325px;
 }
 
-.blue-section {
-  background-color: #142d4c;
-}
+/* Footer Section */
 #footer {
   text-align: center;
   color: white;
@@ -148,4 +123,35 @@ span {
 
 .social-icon {
   margin: 20px 10px;
+}
+
+/* Coloured Sections */
+.black-section {
+  background-color: #212121;
+}
+
+.gray-section {
+  background-color: #ececec;
+}
+
+.white-section {
+  background-color: white;
+}
+
+.blue-section {
+  background-color: #142d4c;
+}
+
+.container-padded {
+  padding: 7% 15%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap-reverse;
+}
+
+.container-padded2 {
+  padding: 2.5% 15%;
 }
